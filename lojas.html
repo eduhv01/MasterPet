@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojas</title>
+    <link rel="stylesheet" href="assets/lojas.css"> <!-- Arquivo CSS externo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cima">
+        <div class="logo">
+            <div class="tracos">
+                <div id="traco1" class="traco"></div>
+                <div id="traco2" class="traco"></div>
+                <div id="traco3" class="traco"></div>
+            </div>    
+            <h1 id="master"><a href="telaprincipal.html">Master</a><span id="pet"><a href="telaprincipal.html">Pet</a></span> <span id="seta">></span> <span id="lojas">Lojas</span></h1>
+        </div>
+        <i id="account" class="fa-solid fa-user" style="color: #ffffff;"></i>
+        <div class="meio">
+            <p id="paragrafo">Encontre as lojas perfeitas pra você!</p>
+            <input type="search" name="Pesquisar" id="pesquisar" placeholder="Pesquisar">
+        </div>
+    </div>
+
+    <div class="baixo">
+        <p id="p">Lojas por <span id="categoria">categoria</span></p>
+        <hr id="hr1">
+        <ul class="lista">
+            <li>
+                <p> <span class="setas">&lt;</span> Cachorros <span class="setas">&gt;</span></p>
+                <img id="cachorro" src="assets/img/animais/cachorro-removebg-preview.png" alt="">
+            </li>
+            <div>
+                <hr class="linhavertical">
+            </div>
+            <li>
+                <p> <span class="setas">&lt;</span> Gatos <span class="setas">&gt;</span></p>
+                <img id="gato" src="assets/img/animais/gato-removebg-preview (1).png" alt="">
+            </li>
+            <div>
+                <hr class="linhavertical">
+            </div>
+            <li>
+                <p> <span class="setas">&lt;</span> Outros <span class="setas">&gt;</span></p>
+                <img id="piriquito" src="assets/img/animais/piriquito-removebg-preview.png" alt="">
+            </li>
+        </ul>
+        <hr id="fimdelista">
+        <nav>
+            <p> <span id="setaEsquerda">&lt;</span> Mostrando 1 de 3 resultados <span id="setaDireita"><a id="setaDireita" href="#">&gt;</a></span> </p>
+        </nav>
+    </div>
+</body>
+</html>
