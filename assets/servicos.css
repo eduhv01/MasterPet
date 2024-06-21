@@ -52,7 +52,7 @@
     font-weight: 530;
 }
 
-#lojas {
+#servicos {
     font-weight: 530;
     padding-left: 3px;
 }
@@ -77,40 +77,6 @@ a {
     right: 25px;
 }
 
-input {
-    height: 45px;
-    width: 84vh;
-    box-shadow: none;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    border-radius: 8px;
-    border: none;
-    font-size: 20px;
-    color: white; 
-    box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.753);
-    background-image: url(img/Captura_de_tela_2024-06-19_141503-removebg-preview.png);
-    background-repeat: no-repeat;
-    background-size: 35px;
-    background-position: left;
-    background-position-x: 11px;
-    
-    
-}
-
-#pesquisar {
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    border-radius: 8px;
-    border: none;
-    font-size: 25px;
-    padding-left: 52px;
-    color: #757575;
-    cursor: pointer;
-    
-}
-
 .meio {
     margin: auto;
     padding-top: 73px;
@@ -124,28 +90,10 @@ input {
     text-align: center;
     color: white;
     font-size: 28.4px;
-    margin-bottom: 60px;
 }
 
-#p{
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 6px;
-    color: rgb(107, 107, 107);
-    font-size: 17.4px;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 550;
-    font-style: normal;
-
-}
-
-#categoria{
-    color: #5353f6;
-}
-
-#hr1{
-    background-color: #666666; 
+.baixo{
+    padding-top: 34px;
 }
 
 .lista{
@@ -168,49 +116,29 @@ li{
     font-family: "Inria Sans", sans-serif;
     font-style: normal;
     font-size: 22px;
-
-}
-
-#cachorro{
-    height: 105px; 
 }
 
 .linhavertical{
     height: 36vh;
 }
 
-nav{
-    text-align: center;
-    padding-top: 8px;
-    color: rgb(63, 63, 63);
-    font-style: inherit;
-}
-
-#setaEsquerda{
-    color: gray;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-#setaDireita{
-    color: rgb(73, 73, 73);
-    font-weight: bold;
-    font-size: 17px;
-}
-
-#setaDireita:hover{
-    color: #5353f6;
-}
-
-#gato{
-    margin-left: 1px;
-    height: 130px;
-}
-
-#piriquito{
-    height: 140px;
-}
-
 .corlink{
     color: #5353f6;
+}
+
+#inicioDeLista{
+    background-color: #666666; 
+}
+
+#veterinario{
+    width: 164px;
+}
+
+#hotel{
+    width: 164px;
+}
+
+#vacinas{ 
+    width: 155px;
+    padding-top: 15px;
 }
